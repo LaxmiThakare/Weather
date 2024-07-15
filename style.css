@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+
+    /* background-image: url(./image/bk2.jpg); */
+    /* background-position: center; */
+    background-image: linear-gradient(rgb(87, 57, 57),rgb(197, 6, 130),rgb(51, 9, 159),rgb(112, 85, 174));
+    background-repeat: no-repeat;
+    /* background-image: url(./image/raingif1.gif); */
+    background-size: cover ;
+    background-position-x: center ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+}
+
+.container{
+
+    height: 30rem;
+    width: 25rem;
+    /* background-color: black; */
+    color: white;
+    margin: 2rem;
+    /* align-items: center; */
+    margin-left: 35rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(115, 63, 10, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+   
+}
+
+.search {
+
+    margin-top: 2rem;
+}
+
+.searchicon{
+    margin-top: 2rem;
+    padding: 0.2rem;
+    margin: 2rem;
+    height: 12rem;
+}
+
+.input{
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    width: 13.5rem;
+   
+}
+
+.btn{
+    height: 1.7rem;
+    width: 5rem;
+    background-color: white;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.tempicon img{
+
+    height: 8rem;
+    margin-top: 5rem;
+    margin-left: -15rem;
+}
+
+#cityname{
+    margin-left: -13rem;
+}
+
+.tempicon h1{
+    margin-left: -13rem;
+}
+
+
+.tempicon h3{
+    margin-left: -13rem;
+}
+
+.humidity img{
+    height:4rem  ;
+    margin-top: 1rem;
+
+    /* margin-top: 23rem; */
+    /* margin-right: 15rem; */
+}
+
+/* .details{
+    background-color: black;
+    height: 11rem;
+    width: 30rem;
+    margin-top: 19rem;
+    margin-left: -19rem;
+    padding: 1rem;
+} */
+
+.details{
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 11rem;
+    width: 18rem;
+    margin-top: 18rem;
+    margin-left: -19rem;
+    justify-content: space-around;
+}
+
+.speed img{
+    height: 4rem;
+    margin-top: 1rem;
+}
+
